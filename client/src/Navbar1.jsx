@@ -19,7 +19,7 @@ const Navbar1 = () => {
                     Create New
                 </Nav.Link>
                 <Nav.Link id='nav1' as={Link} to="/details">
-                    View All
+                    ViewAll
                 </Nav.Link >     
             </Nav>
           </Navbar.Collapse>
