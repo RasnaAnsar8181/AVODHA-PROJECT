@@ -36,7 +36,7 @@ function Cpost() {
                 <h3><u>ENTER THE DETAILS TO CREATE A POST</u></h3>
                     <div className='formdiv'>
                       <Form.Group >
-                            <Form.Label><b>ID NUMBER :</b></Form.Label>
+                            <Form.Label><b>ID NUMBER ::</b></Form.Label>
                             <Form.Control style={{ "borderBottom": "2px solid blue", "marginBottom": "20px" }} ref={inputRef}  required type="number" name='id' value={items.id} onChange={dataChange}/>
                         </Form.Group>
                         <Form.Group >
